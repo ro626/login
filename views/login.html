@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background
+        {
+         background-color: #f2f4f7;
+         height: 500px;
+         justify-items: center;
+        }
+        .image img
+        {
+            width: 240px;
+        }
+        .box
+        { 
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            width: 340px;
+        }
+        .box input
+        {
+            width: 300px;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            padding-top: 14px;
+            padding-right: 16px;
+            padding-bottom: 14px;
+            padding-left: 16px;
+            color-scheme: #dddfe2;
+    
+            
+        }
+        .box button
+        {
+            width: 340px;
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+            background-color: blue;
+            color:white;
+            padding-top: 15px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    border-radius: 4px;
+        }
+        .hover-underline:hover {
+    
+        display: inline;
+        text-decoration: underline;
+        color: blue;
+   
+    }
+    .hover-underline
+    {
+        display: inline;
+    }
+
+
+
+       
+        
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="background">
+        <div class="image">
+            <img src="./image.png" alt="image">
+        </div>
+            <div class="box">
+  <p>Login in to facebook</p>
+  <form action="/login" method="POST">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password?" required>
+    <button type="submit" class="but">Log in</button>
+  </form>
+  <div class="p">
+    <p>Forgot Password?</p>
+    <p>Create new account</p>
+  </div>
+  <button class="button">create a new account</button>
+</div>
+    </div>
+</div>
+</body>
+</html>
